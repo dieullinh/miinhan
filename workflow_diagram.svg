@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1150" width="100%" height="100%" style="background-color: #f8fafc; font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="mintLane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2fbf6"/>
+      <stop offset="100%" stop-color="#e2f7eb"/>
+    </linearGradient>
+    <linearGradient id="blueLane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="amberLane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="purpleLane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="100%" stop-color="#ede9fe"/>
+    </linearGradient>
+    <linearGradient id="tagNewGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.05"/>
+    </filter>
+    <filter id="highlightShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#10b981" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981"/>
+    </marker>
+    <marker id="arr-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+
+  <!-- ================= HEADER BANNER ================= -->
+  <rect x="0" y="0" width="1440" height="96" fill="url(#headerGrad)"/>
+  <text x="50" y="42" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="-0.5">SƠ ĐỒ QUY TRÌNH KHÁCH HÀNG &amp; VẬN HÀNH AI AGENT B2B MINH AN (TOÀN DIỆN)</text>
+  <text x="50" y="68" font-size="13.5" fill="#a7f3d0" font-weight="500">Khảo sát Nhu cầu ➔ Bóc tách &amp; Đối soát Tồn kho ➔ Duyệt Chiết khấu ➔ Ký PO &amp; Tạm ứng ➔ Triển khai &amp; Bảo hành</text>
+  
+  <rect x="1170" y="26" width="220" height="44" rx="22" fill="#ffffff" opacity="0.12"/>
+  <text x="1195" y="53" font-size="13" font-weight="700" fill="#ffffff">🟢 Phiên bản Chuẩn hóa 2.0</text>
+
+  <!-- ================= 4 CỘT GIAI ĐOẠN (STAGES) ================= -->
+
+  <!-- CỘT 1: TIẾP NHẬN & TƯ VẤN (KHÁCH HÀNG) -->
+  <rect x="30" y="120" width="330" height="990" rx="20" fill="url(#mintLane)" stroke="#bbf0d0" stroke-width="1.5"/>
+  <rect x="50" y="138" width="290" height="42" rx="10" fill="#10b981"/>
+  <text x="65" y="164" font-size="14.5" font-weight="800" fill="#ffffff">1. TIẾP CẬN &amp; TƯ VẤN KỸ THUẬT</text>
+
+  <!-- Box 1.1: Khách hàng phát sinh nhu cầu -->
+  <rect x="50" y="200" width="290" height="100" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="70" y="228" font-size="13.5" font-weight="800" fill="#0f172a">👤 Khách hàng Doanh nghiệp</text>
+  <text x="70" y="250" font-size="12" fill="#64748b">• Gửi Email / Biểu mẫu Web / Chatbot</text>
+  <text x="70" y="270" font-size="12" fill="#64748b">• Nhu cầu: Server, Switch, Wifi, Firewall</text>
+  <text x="70" y="288" font-size="11" fill="#059669">Ngân sách dự trù &amp; Thời hạn bàn giao</text>
+
+  <!-- Arrow -->
+  <path d="M 195 300 L 195 330" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 1.2: [MỚI BỔ SUNG] Khảo sát & Làm rõ kỹ thuật (Pre-sales Sizing) -->
+  <rect x="50" y="330" width="290" height="150" rx="14" fill="#ffffff" stroke="#10b981" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="235" y="338" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="247" y="352" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="70" y="360" font-size="13.5" font-weight="800" fill="#047857">🔍 Khảo Sát &amp; Sizing Kỹ Thuật</text>
+  <text x="70" y="382" font-size="11.5" fill="#334155">• Làm rõ cấu hình RAM, RAID, cổng PoE</text>
+  <text x="70" y="402" font-size="11.5" fill="#334155">• Đánh giá quy mô người dùng (Users / AP)</text>
+  <text x="70" y="422" font-size="11.5" fill="#334155">• AI Chatbot gợi ý mã SKU tương thích</text>
+  <text x="70" y="442" font-size="11" fill="#b45309">⚠️ Khắc phục: Báo giá sai lệch cấu hình</text>
+  <text x="70" y="462" font-size="11" fill="#64748b">Pre-sales Minh An xác nhận cấu hình</text>
+
+  <!-- Arrow -->
+  <path d="M 195 480 L 195 510" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 1.3: Chốt Yêu cầu chính thức -->
+  <rect x="50" y="510" width="290" height="100" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="70" y="538" font-size="13.5" font-weight="800" fill="#0f172a">📋 Hồ sơ Yêu cầu Hoàn chỉnh</text>
+  <text x="70" y="560" font-size="12" fill="#64748b">• Công ty, Người liên hệ, SĐT, Email</text>
+  <text x="70" y="580" font-size="12" fill="#64748b">• Danh mục thiết bị &amp; Mức CK mong muốn</text>
+  <text x="70" y="598" font-size="11.5" fill="#059669">➔ Đẩy sang AI Engine xử lý tức thì</text>
+
+
+  <!-- CỘT 2: BÓC TÁCH & ĐỐI SOÁT AI ENGINE -->
+  <rect x="380" y="120" width="330" height="990" rx="20" fill="url(#blueLane)" stroke="#bae6fd" stroke-width="1.5"/>
+  <rect x="400" y="138" width="290" height="42" rx="10" fill="#0284c7"/>
+  <text x="415" y="164" font-size="14.5" font-weight="800" fill="#ffffff">2. BÓC TÁCH &amp; ĐỐI SOÁT AI</text>
+
+  <!-- Arrow from 1.3 to 2.1 -->
+  <path d="M 340 560 L 400 250" stroke="#0284c7" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 2.1: Agent 1 Parser -->
+  <rect x="400" y="200" width="290" height="105" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="420" y="228" font-size="13.5" font-weight="800" fill="#0369a1">🤖 Agent 1: Bóc Tách (Parser)</text>
+  <text x="420" y="250" font-size="12" fill="#334155">• NLP trích xuất thông tin phi cấu trúc</text>
+  <text x="420" y="270" font-size="12" fill="#334155">• Bóc tách số lượng, model, dịch vụ đi kèm</text>
+  <text x="420" y="290" font-size="12" fill="#334155">• Tách mức % chiết khấu thương mại</text>
+
+  <!-- Arrow -->
+  <path d="M 545 305 L 545 330" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 2.2: Agent 2 Stock & SLA Feasibility -->
+  <rect x="400" y="330" width="290" height="120" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="420" y="358" font-size="13.5" font-weight="800" fill="#0369a1">🤖 Agent 2: Catalog &amp; Tồn Kho</text>
+  <text x="420" y="380" font-size="12" fill="#334155">• Ánh xạ mã SKU chuẩn Master Catalog</text>
+  <text x="420" y="400" font-size="12" fill="#334155">• Khóa giá niêm yết mới nhất (tránh giá cũ)</text>
+  <text x="420" y="420" font-size="12" fill="#334155">• Kiểm tra tồn khả dụng &amp; Tính max SLA</text>
+  <text x="420" y="440" font-size="11.5" fill="#dc2626">Cảnh báo nếu Deadline &lt; SLA kho</text>
+
+  <!-- Arrow -->
+  <path d="M 545 450 L 545 475" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 2.3: [MỚI BỔ SUNG] Vòng lặp Xử lý Hết hàng (Stock Solution) -->
+  <rect x="400" y="475" width="290" height="150" rx="14" fill="#ffffff" stroke="#0284c7" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="585" y="483" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="597" y="497" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="420" y="505" font-size="13" font-weight="800" fill="#0369a1">🔄 Xử Lý Hết Hàng &amp; Gia Hạn SLA</text>
+  <text x="420" y="527" font-size="11.5" fill="#334155">• PA 1: Đổi model tương đương sẵn hàng</text>
+  <text x="420" y="547" font-size="11.5" fill="#334155">• PA 2: Tách đơn giao 2 đợt (Giao gấp &gt; Order)</text>
+  <text x="420" y="567" font-size="11.5" fill="#334155">• PA 3: Cho mượn Demo Unit dùng tạm</text>
+  <text x="420" y="587" font-size="11" fill="#b45309">⚠️ Khắc phục: Tắc nghẽn khi kho = 0</text>
+  <text x="420" y="607" font-size="11" fill="#059669">Khách hàng xác nhận trước khi báo giá</text>
+
+  <!-- Arrow -->
+  <path d="M 545 625 L 545 655" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 2.4: Phân bổ NVKD & CRM Sheets -->
+  <rect x="400" y="655" width="290" height="95" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="420" y="682" font-size="13.5" font-weight="800" fill="#0f172a">📊 Ghi Google Sheets &amp; Gán NVKD</text>
+  <text x="420" y="704" font-size="12" fill="#334155">• Gán xoay vòng 1 trong 6 Sales Reps</text>
+  <text x="420" y="724" font-size="12" fill="#334155">• Tính tự động: Tổng, Chiết khấu, Sau CK</text>
+  <text x="420" y="742" font-size="11" fill="#0284c7">Cập nhật Dashboard thời gian thực</text>
+
+
+  <!-- CỘT 3: CỔNG PHÊ DUYỆT & TẠO BÁO GIÁ DOCS -->
+  <rect x="730" y="120" width="330" height="990" rx="20" fill="url(#amberLane)" stroke="#fde68a" stroke-width="1.5"/>
+  <rect x="750" y="138" width="290" height="42" rx="10" fill="#d97706"/>
+  <text x="765" y="164" font-size="14.5" font-weight="800" fill="#ffffff">3. DUYỆT CHIẾT KHẤU &amp; DOCS</text>
+
+  <!-- Arrow from 2.4 to 3.1 -->
+  <path d="M 690 700 L 750 250" stroke="#d97706" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 3.1: Phân luồng thẩm quyền 10% -->
+  <rect x="750" y="200" width="290" height="110" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="770" y="228" font-size="13.5" font-weight="800" fill="#92400e">⚖️ Phân Luồng Thẩm Quyền 10%</text>
+  <text x="770" y="250" font-size="12" fill="#15803d">✔️ CK &lt;= 10%: NVKD tự quyết phê duyệt</text>
+  <text x="770" y="270" font-size="12" fill="#b45309">⚠️ CK &gt; 10%: Gửi Email Trưởng phòng KD</text>
+  <text x="770" y="290" font-size="11" fill="#78350f">Kèm lý do &amp; phân tích biên lợi nhuận</text>
+
+  <!-- Arrow -->
+  <path d="M 895 310 L 895 335" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 3.2: [MỚI BỔ SUNG] Vòng lặp Đàm phán lại nếu Từ chối -->
+  <rect x="750" y="335" width="290" height="150" rx="14" fill="#ffffff" stroke="#f59e0b" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="935" y="343" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="947" y="357" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="770" y="365" font-size="13" font-weight="800" fill="#b45309">🔄 Vòng Lặp Đàm Phán Khi Từ Chối</text>
+  <text x="770" y="387" font-size="11.5" fill="#334155">• TPKD từ chối: NVKD KHÔNG hủy đơn</text>
+  <text x="770" y="407" font-size="11.5" fill="#334155">• AI soạn Counter-Offer: Giữ 8-10% + Tặng</text>
+  <text x="770" y="425" font-size="11" fill="#0284c7">  gói bảo trì On-site hoặc Cài đặt miễn phí</text>
+  <text x="770" y="445" font-size="11" fill="#b45309">⚠️ Khắc phục: Tránh mất deal khách lớn</text>
+  <text x="770" y="465" font-size="11" fill="#059669">Khách đồng ý ➔ Cập nhật lại Sheets</text>
+
+  <!-- Arrow -->
+  <path d="M 895 485 L 895 510" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 3.3: Tích Checkbox Tạo Báo Giá -->
+  <rect x="750" y="510" width="290" height="85" rx="14" fill="#fef9c3" stroke="#fde047" stroke-width="1.5"/>
+  <text x="770" y="538" font-size="13.5" font-weight="800" fill="#854d0e">☑️ Tích Checkbox "Tạo Báo Giá"</text>
+  <text x="770" y="560" font-size="12" fill="#713f12">• NVKD tích vào ô Checkbox trên Sheets</text>
+  <text x="770" y="580" font-size="11" fill="#854d0e">Trigger tự động onEdit Apps Script</text>
+
+  <!-- Arrow -->
+  <path d="M 895 595 L 895 625" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 3.4: Apps Script nhân bản Google Docs -->
+  <rect x="750" y="625" width="290" height="120" rx="14" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="770" y="652" font-size="13.5" font-weight="800" fill="#0f172a">📄 Tự Động Xuất Google Docs</text>
+  <text x="770" y="674" font-size="12" fill="#334155">• Nhân bản Template Google Docs chuẩn</text>
+  <text x="770" y="694" font-size="12" fill="#334155">• Thay thế {{TEN_KH}}, {{SAN_PHAM}}, {{TIEN}}</text>
+  <text x="770" y="714" font-size="12" fill="#334155">• Lưu Google Drive &amp; Ghi URL vào Sheets</text>
+  <text x="770" y="732" font-size="11" fill="#0284c7">🔗 docs.google.com/document/d/...</text>
+
+
+  <!-- CỘT 4: CHỐT ĐƠN, KÝ PO, BÀN GIAO & HẬU MÃI -->
+  <rect x="1080" y="120" width="330" height="990" rx="20" fill="url(#purpleLane)" stroke="#ddd6fe" stroke-width="1.5"/>
+  <rect x="1100" y="138" width="290" height="42" rx="10" fill="#7c3aed"/>
+  <text x="1115" y="164" font-size="14.5" font-weight="800" fill="#ffffff">4. KÝ PO, BÀN GIAO &amp; HẬU MÃI</text>
+
+  <!-- Arrow from 3.4 to 4.1 -->
+  <path d="M 1040 685 L 1100 250" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 4.1: Gửi Báo giá & AI Follow-up -->
+  <rect x="1100" y="200" width="290" height="120" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <rect x="1285" y="208" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="1297" y="222" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="1120" y="232" font-size="13" font-weight="800" fill="#6d28d9">📨 Gửi Báo Giá &amp; AI Follow-up</text>
+  <text x="1120" y="254" font-size="12" fill="#334155">• Gửi link Google Docs sang email Khách</text>
+  <text x="1120" y="274" font-size="12" fill="#334155">• Tự động nhắc sau 48h nếu chưa chốt</text>
+  <text x="1120" y="294" font-size="11" fill="#b45309">⚠️ Khắc phục: Quên chăm sóc dẫn đến rớt đơn</text>
+  <text x="1120" y="310" font-size="11" fill="#64748b">Tích hợp nút gửi nhanh 1-click</text>
+
+  <!-- Arrow -->
+  <path d="M 1245 320 L 1245 350" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 4.2: [MỚI BỔ SUNG] Ký PO & Tạm ứng hợp đồng -->
+  <rect x="1100" y="350" width="290" height="135" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="1285" y="358" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="1297" y="372" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="1120" y="380" font-size="13" font-weight="800" fill="#6d28d9">✍️ Ký PO &amp; Tạm Ứng Hợp Đồng</text>
+  <text x="1120" y="402" font-size="11.5" fill="#334155">• Khách duyệt: Phát hành PO / Hợp đồng</text>
+  <text x="1120" y="422" font-size="11.5" fill="#334155">• Kế toán xác nhận Tạm ứng (30% - 50%)</text>
+  <text x="1120" y="442" font-size="11" fill="#b45309">⚠️ Khắc phục: Khách hủy đơn sau khi xuất kho</text>
+  <text x="1120" y="462" font-size="11" fill="#059669">Trạng thái: "Đã ký HĐ &amp; Đặt cọc"</text>
+
+  <!-- Arrow -->
+  <path d="M 1245 485 L 1245 515" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 4.3: [MỚI BỔ SUNG] Xuất kho & Triển khai lắp đặt -->
+  <rect x="1100" y="515" width="290" height="120" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="1285" y="523" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="1297" y="537" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="1120" y="545" font-size="13" font-weight="800" fill="#6d28d9">🚚 Xuất Kho &amp; Lắp Đặt On-site</text>
+  <text x="1120" y="567" font-size="11.5" fill="#334155">• Kỹ thuật viên giao hàng &amp; Cấu hình mạng</text>
+  <text x="1120" y="587" font-size="11.5" fill="#334155">• Ký Biên Bản Nghiệm Thu (BBBG)</text>
+  <text x="1120" y="607" font-size="11" fill="#059669">Khách hàng nghiệm thu hoạt động chuẩn</text>
+
+  <!-- Arrow -->
+  <path d="M 1245 635 L 1245 665" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Box 4.4: [MỚI BỔ SUNG] Hoàn tất, Hóa đơn & Bảo hành SLA -->
+  <rect x="1100" y="665" width="290" height="120" rx="14" fill="#dcfce7" stroke="#10b981" stroke-width="2" filter="url(#highlightShadow)"/>
+  <rect x="1285" y="673" width="95" height="20" rx="10" fill="url(#tagNewGrad)"/>
+  <text x="1297" y="687" font-size="10" font-weight="800" fill="#ffffff">★ MỚI BỔ SUNG</text>
+  <text x="1120" y="695" font-size="13.5" font-weight="800" fill="#15803d">🏁 Hoàn Tất &amp; Bảo Hành SLA</text>
+  <text x="1120" y="717" font-size="11.5" fill="#14532d">• Kế toán xuất Hóa đơn Điện tử VAT</text>
+  <text x="1120" y="737" font-size="11.5" fill="#14532d">• Kích hoạt Bảo hành chính hãng 12-36T</text>
+  <text x="1120" y="757" font-size="11.5" fill="#14532d">• AI lưu hồ sơ chăm sóc định kỳ</text>
+
+  <!-- ================= BẢNG CHÚ THÍCH DƯỚI CÙNG ================= -->
+  <rect x="30" y="930" width="1380" height="180" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <text x="55" y="962" font-size="15" font-weight="800" fill="#0f172a">📌 BẢNG GHI CHÚ: CÁC ĐIỂM THIẾU SÓT THỰC TẾ ĐÃ ĐƯỢC BỔ SUNG VÀ NÂNG CẤP VÀO HỆ THỐNG</text>
+
+  <rect x="55" y="980" width="300" height="110" rx="10" fill="#f0fdf4" stroke="#bbf0d0"/>
+  <text x="70" y="1005" font-size="12.5" font-weight="800" fill="#166534">1. Khảo sát &amp; Sizing Kỹ thuật</text>
+  <text x="70" y="1025" font-size="11" fill="#15803d">• Tránh việc khách gửi thiếu thông số</text>
+  <text x="70" y="1043" font-size="11" fill="#15803d">• AI gợi ý cấu hình tương thích</text>
+  <text x="70" y="1061" font-size="11" fill="#15803d">• Pre-sales kiểm tra trước khi báo giá</text>
+
+  <rect x="385" y="980" width="320" height="110" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="400" y="1005" font-size="12.5" font-weight="800" fill="#1e40af">2. Vòng lặp Xử lý Hết Hàng (Stock)</text>
+  <text x="400" y="1025" font-size="11" fill="#1e3a8a">• Quy trình cũ bị tắc nghẽn khi kho = 0</text>
+  <text x="400" y="1043" font-size="11" fill="#1e3a8a">• Bổ sung 3 phương án: Tách đơn giao 2 đợt,</text>
+  <text x="400" y="1061" font-size="11" fill="#1e3a8a">  đổi model tương đương hoặc mượn Demo Unit</text>
+
+  <rect x="735" y="980" width="330" height="110" rx="10" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="750" y="1005" font-size="12.5" font-weight="800" fill="#92400e">3. Đàm phán Lại (Counter-Offer)</text>
+  <text x="750" y="1025" font-size="11" fill="#78350f">• Trưởng phòng từ chối KHÔNG hủy deal</text>
+  <text x="750" y="1043" font-size="11" fill="#78350f">• AI đề xuất đàm phán: Chiết khấu 8-10%</text>
+  <text x="750" y="1061" font-size="11" fill="#78350f">  kèm tặng gói lắp đặt/bảo hành on-site</text>
+
+  <rect x="1095" y="980" width="295" height="110" rx="10" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="1110" y="1005" font-size="12.5" font-weight="800" fill="#6b21a8">4. Ký PO, Tạm ứng &amp; Nghiệm thu</text>
+  <text x="1110" y="1025" font-size="11" fill="#581c87">• Bổ sung ký PO &amp; đặt cọc 30-50%</text>
+  <text x="1110" y="1043" font-size="11" fill="#581c87">• Kỹ thuật triển khai &amp; Ký BBBG</text>
+  <text x="1110" y="1061" font-size="11" fill="#581c87">• AI Follow-up sau 48h tự động</text>
+
+</svg>

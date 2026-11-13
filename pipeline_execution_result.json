@@ -1,0 +1,190 @@
+[
+  {
+    "extracted": {
+      "inquiry_id": "INQ-2026-001",
+      "customer_name": "Công ty Cổ phần Giải pháp LogiTech",
+      "contact_person": "Anh Trần Tuấn - Trưởng phòng IT",
+      "email": "tuan.tran@logitech-vn.example",
+      "phone": "0912345678",
+      "raw_request_text": "Chào Minh An,\nCông ty tôi đang cần trang bị hạ tầng mạng cho văn phòng chi nhánh mới tại Q7 gồm:\n- 1 máy chủ Dell R750xs cấu hình chuẩn\n- 2 chiếc Switch Cisco 24 cổng PoE mã C9200L\n- 6 bộ phát wifi Aruba AP22 treo trần\n- 1 bộ lưu điện APC 3kVA\n- Kèm dịch vụ lắp đặt triển khai trọn gói.\n\nTổng ngân sách dự trù bên tôi khoảng 200 triệu. Yêu cầu bàn giao và nghiệm thu xong trước ngày 20/11/2026 (sau 10 ngày). Do bên tôi là khách hàng quen, đề xuất chiết khấu thêm 12% so với giá niêm yết để kịp trình ban giám đốc ký duyệt tuần này.\nBáo sớm giúp mình nhé!\nTuấn - IT Manager.",
+      "items": [
+        {
+          "raw_text": "- 1 máy chủ Dell R750xs cấu hình chuẩn",
+          "inferred_keyword": "lắp đặt triển khai",
+          "quantity": 1
+        },
+        {
+          "raw_text": "- 2 chiếc Switch Cisco 24 cổng PoE mã C9200L",
+          "inferred_keyword": "Switch Cisco 24 c",
+          "quantity": 2
+        },
+        {
+          "raw_text": "- 6 bộ phát wifi Aruba AP22 treo trần",
+          "inferred_keyword": "wifi Aruba AP22 treo tr",
+          "quantity": 6
+        },
+        {
+          "raw_text": "- Kèm dịch vụ lắp đặt triển khai trọn gói.",
+          "inferred_keyword": "lắp đặt triển khai",
+          "quantity": 1
+        }
+      ],
+      "target_budget": null,
+      "requested_deadline_days": 10,
+      "requested_discount_pct": 12.0,
+      "missing_info_flags": [
+        "Thiếu thông tin ngân sách dự trù (Budget not specified)"
+      ]
+    },
+    "opportunity": {
+      "opportunity_id": "OPP-20261111-001",
+      "created_at": "2026-11-11T09:48:54.834993",
+      "assigned_rep_id": "NV01",
+      "assigned_rep_name": "Nguyễn Văn An",
+      "assigned_rep_email": "an.nv@minhan.com.vn",
+      "customer_name": "Công ty Cổ phần Giải pháp LogiTech",
+      "contact_person": "Anh Trần Tuấn - Trưởng phòng IT",
+      "email": "tuan.tran@logitech-vn.example",
+      "phone": "0912345678",
+      "items": [
+        {
+          "sku": "MA-SVC-INS",
+          "product_name": "Dịch vụ lắp đặt và cấu hình hệ thống mạng/server",
+          "category": "Service",
+          "quantity": 1,
+          "unit_price": 6000000.0,
+          "total_price": 6000000.0,
+          "stock_available": 999,
+          "is_in_stock": true,
+          "lead_time_days": 2,
+          "note": "Sẵn hàng tại kho"
+        },
+        {
+          "sku": "MA-SW-01",
+          "product_name": "Switch Cisco Catalyst C9200L-24P-4G",
+          "category": "Networking",
+          "quantity": 2,
+          "unit_price": 28500000.0,
+          "total_price": 57000000.0,
+          "stock_available": 12,
+          "is_in_stock": true,
+          "lead_time_days": 1,
+          "note": "Sẵn hàng tại kho"
+        },
+        {
+          "sku": "MA-AP-01",
+          "product_name": "Bộ phát WiFi Aruba Instant On AP22",
+          "category": "Networking",
+          "quantity": 6,
+          "unit_price": 3800000.0,
+          "total_price": 22800000.0,
+          "stock_available": 35,
+          "is_in_stock": true,
+          "lead_time_days": 1,
+          "note": "Sẵn hàng tại kho"
+        },
+        {
+          "sku": "MA-SVC-INS",
+          "product_name": "Dịch vụ lắp đặt và cấu hình hệ thống mạng/server",
+          "category": "Service",
+          "quantity": 1,
+          "unit_price": 6000000.0,
+          "total_price": 6000000.0,
+          "stock_available": 999,
+          "is_in_stock": true,
+          "lead_time_days": 2,
+          "note": "Sẵn hàng tại kho"
+        }
+      ],
+      "subtotal": 91800000.0,
+      "discount_pct": 12.0,
+      "discount_amount": 11016000.0,
+      "final_total": 80784000.0,
+      "target_budget": null,
+      "budget_variance": null,
+      "budget_evaluation": "Khách hàng chưa cung cấp ngân sách trần",
+      "max_lead_time_days": 2,
+      "requested_deadline_days": 10,
+      "deadline_feasibility": "Khả thi: Cam kết 2 ngày (Khách yêu cầu 10 ngày)",
+      "approval_required": true,
+      "approval_status": "PENDING_SALES_MANAGER",
+      "approver_email": "truongphong.kd@minhan.com.vn",
+      "audit_notes": [
+        "Chiết khấu 12.0% > 10% quy định -> Tự động chuyển luồng Trình Trưởng phòng duyệt."
+      ]
+    },
+    "drafts": {
+      "customer_email_draft": "Kính gửi Anh Trần Tuấn - Trưởng phòng IT - Công ty Cổ phần Giải pháp LogiTech,\n\nCảm ơn Quý công ty đã tin tưởng gửi yêu cầu báo giá thiết bị và giải pháp công nghệ tới Minh An.\nTôi là Nguyễn Văn An, Chuyên viên Kinh doanh phụ trách hỗ trợ trực tiếp Quý công ty.\n\nHệ thống đã tiếp nhận và lập phương án sơ bộ theo đúng yêu cầu như sau:\n--------------------------------------------------------------------------------\nCHI TIẾT DANH MỤC THIẾT BỊ & DỊCH VỤ:\n  1. Dịch vụ lắp đặt và cấu hình hệ thống mạng/server | SL: 1 | Đơn giá: 6,000,000 VNĐ | TT: 6,000,000 VNĐ (Sẵn hàng tại kho)\n  2. Switch Cisco Catalyst C9200L-24P-4G | SL: 2 | Đơn giá: 28,500,000 VNĐ | TT: 57,000,000 VNĐ (Sẵn hàng tại kho)\n  3. Bộ phát WiFi Aruba Instant On AP22 | SL: 6 | Đơn giá: 3,800,000 VNĐ | TT: 22,800,000 VNĐ (Sẵn hàng tại kho)\n  4. Dịch vụ lắp đặt và cấu hình hệ thống mạng/server | SL: 1 | Đơn giá: 6,000,000 VNĐ | TT: 6,000,000 VNĐ (Sẵn hàng tại kho)\n\n- Tổng giá trị niêm yết: 91,800,000 VNĐ\n- Chiết khấu thương mại (12.0%): -11,016,000 VNĐ\n- TỔNG GIÁ TRỊ ĐỀ XUẤT (Chưa VAT): 80,784,000 VNĐ\n- Tiến độ triển khai dự kiến: 2 ngày làm việc kể từ ngày ký hợp đồng.\n--------------------------------------------------------------------------------\n\n\nBản báo giá chính thức chi tiết đã được khởi tạo tại liên kết Google Docs đính kèm:\n[TẢI BÁO GIÁ CHÍNH THỨC SỐ OPP-20261111-001](https://docs.google.com/document/d/demo-minhan-OPP-20261111-001)\n\nQuý khách vui lòng phản hồi hoặc liên hệ trực tiếp tôi qua số hotline/Zalo để hoàn thiện thủ tục ký duyệt sớm nhất.\n\nTrân trọng,\nNguyễn Văn An | Phòng Kinh Doanh B2B\nCông ty Công Nghệ Minh An | Email: an.nv@minhan.com.vn\n",
+      "manager_approval_email": "[TRÌNH PHÊ DUYỆT BÁO GIÁ VƯỢT THẨM QUYỀN - OPP-20261111-001]\nKính gửi Trưởng phòng Kinh doanh,\n\nNVKD: Nguyễn Văn An (NV01) vừa tiếp nhận cơ hội mới cần Trưởng phòng duyệt chiết khấu:\n- Khách hàng: Công ty Cổ phần Giải pháp LogiTech\n- Liên hệ: Anh Trần Tuấn - Trưởng phòng IT (0912345678 - tuan.tran@logitech-vn.example)\n- Tổng giá niêm yết: 91,800,000 VNĐ\n- Mức chiết khấu đề xuất: 12.0% (Vượt mức tự quyết 10% -> Cần duyệt)\n- Giá trị sau chiết khấu: 80,784,000 VNĐ (Giảm 11,016,000 VNĐ)\n- Đánh giá ngân sách khách hàng: Khách hàng chưa cung cấp ngân sách trần\n- Tính khả thi tiến độ kho: Khả thi: Cam kết 2 ngày (Khách yêu cầu 10 ngày)\n\nHành động nhanh từ Email:\n[ĐỒNG Ý DUYỆT] (Ghi nhận trạng thái Đã Duyệt & Tự động tạo Báo giá)\n[TỪ CHỐI DUYỆT] (Chuyển trạng thái Hoàn thành - Từ chối)\n"
+    }
+  },
+  {
+    "extracted": {
+      "inquiry_id": "INQ-2026-002",
+      "customer_name": "Công ty TNHH May Mặc Hưng Phát",
+      "contact_person": "Chị Mai Hương - Kế toán trưởng",
+      "email": "huong.mai@hungphatgarment.example",
+      "phone": "0988776655",
+      "raw_request_text": "Cần báo giá gấp 2 con Firewall Fortinet 60F và 4 con Wifi Aruba AP22. Cần hàng gấp trong 3 ngày để lắp nhà xưởng. Chiết khấu thương mại mong muốn 5%.",
+      "items": [
+        {
+          "raw_text": "Cần báo giá gấp 2 con Firewall Fortinet 60F và 4 con Wifi Aruba AP22. Cần hàng gấp trong 3 ngày để lắp nhà xưởng. Chiết khấu thương mại mong muốn 5%.",
+          "inferred_keyword": "Firewall Fortinet 60F v",
+          "quantity": 2
+        }
+      ],
+      "target_budget": null,
+      "requested_deadline_days": 3,
+      "requested_discount_pct": 0.0,
+      "missing_info_flags": [
+        "Thiếu thông tin ngân sách dự trù (Budget not specified)"
+      ]
+    },
+    "opportunity": {
+      "opportunity_id": "OPP-20261111-002",
+      "created_at": "2026-11-11T09:48:54.834993",
+      "assigned_rep_id": "NV02",
+      "assigned_rep_name": "Trần Thị Bích",
+      "assigned_rep_email": "bich.tt@minhan.com.vn",
+      "customer_name": "Công ty TNHH May Mặc Hưng Phát",
+      "contact_person": "Chị Mai Hương - Kế toán trưởng",
+      "email": "huong.mai@hungphatgarment.example",
+      "phone": "0988776655",
+      "items": [
+        {
+          "sku": "MA-FW-01",
+          "product_name": "Tường lửa Fortinet FortiGate 60F",
+          "category": "Security",
+          "quantity": 2,
+          "unit_price": 19500000.0,
+          "total_price": 39000000.0,
+          "stock_available": 0,
+          "is_in_stock": false,
+          "lead_time_days": 10,
+          "note": "Tồn kho (0/2) - Cần nhập hàng SLA 10 ngày"
+        }
+      ],
+      "subtotal": 39000000.0,
+      "discount_pct": 0.0,
+      "discount_amount": 0.0,
+      "final_total": 39000000.0,
+      "target_budget": null,
+      "budget_variance": null,
+      "budget_evaluation": "Khách hàng chưa cung cấp ngân sách trần",
+      "max_lead_time_days": 10,
+      "requested_deadline_days": 3,
+      "deadline_feasibility": "CẢNH BÁO: Khách yêu cầu 3 ngày nhưng hàng cần tối thiểu 10 ngày.",
+      "approval_required": false,
+      "approval_status": "AUTO_APPROVED",
+      "approver_email": null,
+      "audit_notes": [
+        "CẢNH BÁO: Khách yêu cầu 3 ngày nhưng hàng cần tối thiểu 10 ngày.",
+        "Chiết khấu 0.0% <= 10% -> Thuộc thẩm quyền NVKD, tự động duyệt."
+      ]
+    },
+    "drafts": {
+      "customer_email_draft": "Kính gửi Chị Mai Hương - Kế toán trưởng - Công ty TNHH May Mặc Hưng Phát,\n\nCảm ơn Quý công ty đã tin tưởng gửi yêu cầu báo giá thiết bị và giải pháp công nghệ tới Minh An.\nTôi là Trần Thị Bích, Chuyên viên Kinh doanh phụ trách hỗ trợ trực tiếp Quý công ty.\n\nHệ thống đã tiếp nhận và lập phương án sơ bộ theo đúng yêu cầu như sau:\n--------------------------------------------------------------------------------\nCHI TIẾT DANH MỤC THIẾT BỊ & DỊCH VỤ:\n  1. Tường lửa Fortinet FortiGate 60F | SL: 2 | Đơn giá: 19,500,000 VNĐ | TT: 39,000,000 VNĐ (Tồn kho (0/2) - Cần nhập hàng SLA 10 ngày)\n\n- Tổng giá trị niêm yết: 39,000,000 VNĐ\n- Chiết khấu thương mại (0.0%): -0 VNĐ\n- TỔNG GIÁ TRỊ ĐỀ XUẤT (Chưa VAT): 39,000,000 VNĐ\n- Tiến độ triển khai dự kiến: 10 ngày làm việc kể từ ngày ký hợp đồng.\n--------------------------------------------------------------------------------\nLƯU Ý VỀ TIẾN ĐỘ: CẢNH BÁO: Khách yêu cầu 3 ngày nhưng hàng cần tối thiểu 10 ngày.\n\nBản báo giá chính thức chi tiết đã được khởi tạo tại liên kết Google Docs đính kèm:\n[TẢI BÁO GIÁ CHÍNH THỨC SỐ OPP-20261111-002](https://docs.google.com/document/d/demo-minhan-OPP-20261111-002)\n\nQuý khách vui lòng phản hồi hoặc liên hệ trực tiếp tôi qua số hotline/Zalo để hoàn thiện thủ tục ký duyệt sớm nhất.\n\nTrân trọng,\nTrần Thị Bích | Phòng Kinh Doanh B2B\nCông ty Công Nghệ Minh An | Email: bich.tt@minhan.com.vn\n",
+      "manager_approval_email": null
+    }
+  }
+]
